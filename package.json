@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "web dev portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imiller1007/IanMillerFullStackWebDeveloper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imiller1007/IanMillerFullStackWebDeveloper/issues"
+  },
+  "homepage": "https://github.com/imiller1007/IanMillerFullStackWebDeveloper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^2.0.12"
+  }
+}
