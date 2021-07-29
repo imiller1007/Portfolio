@@ -1,0 +1,215 @@
+body {
+    height: auto;
+    
+    background-position: 50% 50%;
+    
+    background-repeat: no-repeat;
+    
+    /* background-attachment: fixed; */
+    
+    background-size: cover;
+    
+    background: rgb(0,0,190);
+    background: -moz-linear-gradient(159deg, rgba(0,0,190,1) 0%, rgba(24,24,255,1) 19%, rgba(10,132,255,1) 41%, rgba(0,212,255,1) 63%, rgba(170,241,255,1) 84%, rgba(191,244,255,1) 100%);
+    background: -webkit-linear-gradient(159deg, rgba(0,0,190,1) 0%, rgba(24,24,255,1) 19%, rgba(10,132,255,1) 41%, rgba(0,212,255,1) 63%, rgba(170,241,255,1) 84%, rgba(191,244,255,1) 100%);
+    background: linear-gradient(159deg, rgba(0,0,190,1) 0%, rgba(24,24,255,1) 19%, rgba(10,132,255,1) 41%, rgba(0,212,255,1) 63%, rgba(170,241,255,1) 84%, rgba(191,244,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000be",endColorstr="#bff4ff",GradientType=1);
+}
+
+#particles-js {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#particles-jsphp {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#particles-jsmysql {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#content {
+  position: relative;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    opacity: 0;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #b3ffff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.nav-links a:hover{
+    text-shadow: 2px 2px 5px white;
+    color: white;
+    border-bottom: 3px, solid, white;
+}
+
+.hero-section {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.about-section {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.background-wrapper {
+  background-color:rgba(0, 0, 0, 0.4);
+    
+}
+
+.work-section {
+    color: white;
+}
+
+.contact-section {
+    color: white;
+}
+
+.badge:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s;
+}
+
+.card-container {
+    position: relative;
+    max-width: 22rem;
+    perspective: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-container:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.3)!important;
+    color: white!important;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    overflow-y: scroll;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 0.9s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* custom scrollbar for body*/
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(82, 108, 255); 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(201, 201, 255); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(81, 81, 255); 
+  }
+
+/* custom scrollbar for card*/
+  .card-back::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .card-back::-webkit-scrollbar-track {
+    background: rgb(141, 141, 141); 
+  }
+   
+  .card-back::-webkit-scrollbar-thumb {
+    background: rgb(201, 201, 255); 
+  }
+  
+  .card-back::-webkit-scrollbar-thumb:hover {
+    background: rgb(81, 81, 255); 
+  }
+
+  .project-link {
+    color: skyblue;
+    text-decoration: underline;
+    transition: color 0.5s, text-shadow 0.5s;
+  }
+
+  .project-link:hover {
+    text-shadow: 2px 2px 5px white;
+    color: white;
+    border-bottom: 3px, solid, white;
+  }
+
+  .btn {
+    font-family: 'Montserrat', sans-serif;  
+    color: skyblue;
+    background-color: #464646;
+    border: 0px solid transparent;
+    text-decoration: underline;
+    transition: color 0.5s, text-shadow 0.5s;
+  }
+
+  .btn:hover {
+    text-shadow: 2px 2px 5px white;
+    color: white;
+    border-bottom: 3px, solid, white;
+  }
+
+  #emailBtn {
+    background-color:rgba(0, 0, 0, 0);
+  }

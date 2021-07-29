@@ -1,34 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/images/BrowserLogo.png"/>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-    <title>Ian Miller | Full Stack Web Developer</title>
-</head>
-
-<body>
-    <div class="container-fluid">
-
-        <section class="hero-section">
+    <section class="hero-section">
             <div class="row">
                 <div style="height: 90px;"></div>
             </div>
             <div class="row pb-5">
                 <div
                     class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-8 offset-sm-2 col-xs-12 text-center pb-5">
-                    <img src="./assets/images/LogoOutline.svg" class="img-fluid" alt="IMLogo" id="logo">
+                    <img src="/images/LogoOutline.png" class="img-fluid" alt="IMLogo" id="logo">
                 </div>
             </div>
-            <div class="row">
+
+            <!-- <div class="row">
                 <div class="col-md-10 offset-md-1 col-sm-12 col-xs-12 text-center">
                     <nav class="nav-links">
                         <ul>
@@ -38,11 +19,21 @@
                         </ul>
                     </nav>
                 </div>
+            </div> -->
+            <div class="d-flex justify-content-center">
+                <div class=" nav flex-column flex-sm-row nav-links text-center">
+                    <a class="animated-link" href="#about" id="about-link">ABOUT</a>
+                    <a class="animated-link" href="#work" id="work-link">WORK</a>
+                    <a class="animated-link" href="#contact" id="contact-link">CONTACT</a>
+                </div>
             </div>
+
+
+
         </section>
 
-        <div class="gray-background-wrapper" id="about">
-            <section class="about-section p-5">
+        <div class="background-wrapper mb-5" id="about">
+            <section class="about-section ">
                 <div class="row text-center">
                     <div class="col-md-6 offset-md-3 col-sm-12 col-xs-12 text-center">
                         <h1 class="header pt-5 pb-5">ABOUT ME</h1>
@@ -56,29 +47,28 @@
                             bootcamp,
                             and earning my certificate with an A. The comprehensive course led me to master HTML, CSS,
                             JavsScript/JQuery, Node.JS/Express, React, MySQL, and MongoDB. Not only did it teach me how
-                            to code,
-                            but it taught me how to work as effectively and efficiently as possible when it came to
-                            group projects, with methods like daily SCRUM meetings and project boards to keep track of
-                            the project's progress.
-                            I have gone on to complete a contracted position for the City of Los Angeles, where I
-                            developed an MVC web application using CakePHP and MySQL and also aided in the
-                            development of an ASP.Net application related to the project. My focus and passion is
-                            building complex logic in JavaScript.</p>
+                            to code, but it taught me how to work as effectively and efficiently as possible when it came
+                            to group projects, like daily SCRUM meetings and project boards to keep track of
+                            everyone's current tasks.</p>
                     </div>
                 </div>
                 <div class="row pt-5 pb-5">
                     <div class="col-md-4 offset-md-4 text-center">
-                        <img src="./assets/images/mypic2.png" style="width:55%" class="img-fluid" alt="about-picture">
+                        <img src="/images/mypic2.png" style="width:55%" class="img-fluid" alt="about-picture">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-10 offset-md-1 text-center">
-                        <p class="p-2">I am a disciplined developer with a strong work ethic and a good team player no
+                        <p class="p-2">From there I took part in an ambitious project for the City of Los Angeles, where I
+                            helped develop two different web applications. These web apps are being used today 
+                            by two separate departments and are saving the city millions every year.
+                            While I am a full stack programmer, my passion is with the back-end as I am always learning to build
+                            more complex but efficient algorithms.
+                            I am a disciplined developer with a strong work ethic and a good team player no
                             matter the situation. I am a quick learner and I use this skill to attain any knowledge I
-                            need
-                            to get the job done. My main career goal is gain enough experience to become a senior
-                            developer leading groups for projects at major tech companies. In my down time, I am
-                            bringing some of my app ideas
+                            need to get the job done. My main career goal is gain enough experience to become a senior
+                            developer leading groups for projects at major tech companies. 
+                            In my down time, I am bringing some of my app ideas
                             to fruition to hone my skills. Other hobbies outside of coding are hiking, exercising, and
                             gaming. If you have any interest in collaborating, please feel free to contact me at any
                             time!
@@ -94,11 +84,11 @@
                     <div class="col-md-2 col-sm-12 col-xs-12 offset-md-2">
                         <div class="row text-center">
                             <div class="col p-1 badge">
-                                <img src="./assets/images/html.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/html.png" style="width: 65px;" class="img-fluid"
                                     alt="html logo">
                             </div>
                             <div class="col p-1 badge">
-                                <img src="./assets/images/css.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/css.png" style="width: 65px;" class="img-fluid"
                                     alt="css logo">
                             </div>
                         </div>
@@ -107,11 +97,11 @@
                     <div class="col-md-2 col-sm-12 col-xs-12">
                         <div class="row text-center">
                             <div class="col p-1 badge">
-                                <img src="./assets/images/js.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/js.png" style="width: 65px;" class="img-fluid"
                                     alt="javascript logo">
                             </div>
                             <div class="col p-1 badge">
-                                <img src="./assets/images/bootstrap.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/bootstrap.png" style="width: 65px;" class="img-fluid"
                                     alt="bootstrap logo">
                             </div>
                         </div>
@@ -120,11 +110,11 @@
                     <div class="col-md-2 col-sm-12 col-xs-12">
                         <div class="row text-center">
                             <div class="col p-1 badge">
-                                <img src="./assets/images/node.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/node.png" style="width: 65px;" class="img-fluid"
                                     alt="node logo">
                             </div>
                             <div class="col p-1 badge">
-                                <img src="./assets/images/php.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/php.png" style="width: 65px;" class="img-fluid"
                                     alt="react logo">
                             </div>
                         </div>
@@ -133,11 +123,11 @@
                     <div class="col-md-2 col-sm-12 col-xs-12">
                         <div class="row text-center">
                             <div class="col p-1 badge">
-                                <img src="./assets/images/react.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/react.png" style="width: 65px;" class="img-fluid"
                                     alt="php logo">
                             </div>
                             <div class="col p-1 badge">
-                                <img src="./assets/images/mysql.png" style="width: 65px;" class="img-fluid"
+                                <img src="/images/mysql.png" style="width: 65px;" class="img-fluid"
                                     alt="mysql logo">
                             </div>
                         </div>
@@ -147,7 +137,7 @@
             </section>
         </div>
 
-        <div class="orange-background-wrapper" id="work">
+        <div class="background-wrapper mb-5" id="work">
             <section class="work-section p-5">
 
                 <div class="row text-center pb-2">
@@ -169,7 +159,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-2">
                         <div class="card-container">
                             <div class="card rounded-0 card-front">
-                                <img src="./assets/images/boe.png" class="card-img-top"
+                                <img src="/images/boe.png" class="card-img-top"
                                     alt="Bureau of Engineering Logo">
                                 <div class="card-body d-flex flex-column">
                                     <h5 class="card-title">ASP.Net Application for LA Bureau of Engineering (2019 -
@@ -204,7 +194,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-2">
                         <div class="card-container">
                             <div class="card rounded-0 card-front">
-                                <img src="./assets/images/bca.png" class="card-img-top"
+                                <img src="/images/bca.png" class="card-img-top"
                                     alt="Bureau of Contract Administration Logo">
                                 <div class="card-body d-flex flex-column">
                                     <h5 class="card-title">CakePHP Application for LA Bureau of Contract Administration
@@ -255,9 +245,9 @@
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row">
 
-                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-2">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2">
                         <div class="card-container">
                             <div class="card rounded-0 card-front">
                                 <img src="https://media.giphy.com/media/l0pABjCWYmJAk5Wrhi/giphy.gif" class="card-img-top" alt="CHARToppers GIF">
@@ -295,7 +285,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-2">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2">
                         <div class="card-container">
                             <div class="card rounded-0 card-front">
                                 <img src="https://media.giphy.com/media/gGlWTSCdTQAKh838Ek/giphy.gif" class="card-img-top" alt="Roastr GIF">
@@ -332,6 +322,45 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <!-- FITMOD -->
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-2">
+                        <div class="card-container">
+                            <div class="card rounded-0 card-front">
+                                <img src="images/FITMOD.gif" class="card-img-top" alt="Roastr GIF">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">FITMOD (2021)</h5>
+                                    <p class="card-text">
+                                        PHP, MySQL, Apache, JQuery
+                                    </p>
+                                    <div class="mt-auto">
+                                        <p><b>Hover over</b> or <b>tap</b> to see more info</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card rounded-0 card-back">
+                                <div class="card-body">
+                                    <h5 class="card-title">FITMOD</h5>
+                                    <p class="card-text"><b>Summary:</b>
+                                        This was a personal project I worked on over the summer. It is a web application to create, share,
+                                        and save daily workouts. Users have the ability to attach these workouts to their schedule and record
+                                        their reps/weight for each exercise. Users can then keep track of their results as they hopefully see improvement 
+                                        with each exercise. I am working on the same project but with a Laravel framework that will have additional features
+                                        than what is currently available. This existing version uses a custom object-oriented PHP framework, apache server,
+                                        and a MySQL database. This was a solo project.
+                                    </p>
+                                    <a class="project-link" href="https://github.com/imiller1007/fitmod"
+                                        target="_blank">GitHub Page</a><br>
+                                    <a class="project-link" href="https://fitmod-app.com/"
+                                        target="_blank">Main Page</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 </div>
 
@@ -340,7 +369,7 @@
             </section>
         </div>
 
-        <div class="gray-background-wrapper" id="contact">
+        <div class="background-wrapper" id="contact">
             <section class="contact-section p-5">
                 <div class="row text-center">
                     <div class="col-md-6 offset-md-3 col-sm-12 col-xs-12 text-center">
@@ -362,14 +391,14 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 offset-md-3 col-sm-12 col-xs-12 text-center">
-                        <p><button class="header btn pt-2 pb-2" data-clipboard-text="contact.ianmiller@gmail.com">
+                        <p><button class="header btn pt-2 pb-2" id="emailBtn" data-clipboard-text="contact.ianmiller@gmail.com">
                             contact.ianmiller@gmail.com
                         </button></p>
                     </div>
                 </div>
                 <div class="row pt-5">
                     <div class="col-md-6 offset-md-3 col-sm-12 col-xs-12 text-center">
-                        <small class="header pt-5">2020 Ian Miller</small>
+                        <small class="header pt-5">2021 Ian Miller</small>
                     </div>
                 </div>
             </section>
@@ -378,94 +407,3 @@
 
 
     </div>
-</body>
-
-<script>
-
-
-    function IntroAnimation() {
-        setTimeout(function () { $("#about-link").fadeTo(3000, 1) }, 1000);
-        setTimeout(function () { $("#work-link").fadeTo(3000, 1) }, 1300);
-        setTimeout(function () { $("#contact-link").fadeTo(3000, 1) }, 1600);
-        $("#logo").fadeTo(200, 0.5);
-        $("#logo").fadeTo(2, 0.8);
-        $("#logo").fadeTo(200, 1);
-        $("#logo").fadeTo(50, 0.8);
-        $("#logo").fadeTo(100, 0.7);
-        $("#logo").fadeTo(7, 0.6);
-        $("#logo").fadeTo(1, 1);
-        $("#logo").fadeTo(90, 0.7);
-        $("#logo").fadeTo(50, 0.3);
-        $("#logo").fadeTo(57, 1);
-        $("#logo").fadeTo(50, 0.4);
-        $("#logo").fadeTo(100, 0.3);
-        $("#logo").fadeTo(7, 0.6);
-        $("#logo").fadeTo(1, 1);
-        $("#logo").fadeTo(90, 0.7);
-        $("#logo").fadeTo(50, 0.3);
-        $("#logo").fadeTo(57, 1);
-        $("#logo").fadeTo(50, 0.4);
-        $("#logo").fadeTo(100, 0.3);
-        $("#logo").fadeTo(7, 0.6);
-        $("#logo").fadeTo(96, 0.8);
-        $("#logo").fadeTo(96, 0.6);
-        $("#logo").fadeTo(96, 1);
-        $("#logo").fadeTo(100, 0.3);
-        $("#logo").fadeTo(7, 0.6);
-        $("#logo").fadeTo(96, 0.8);
-        $("#logo").fadeTo(96, 0.6);
-        $("#logo").fadeTo(7, 0.6);
-        $("#logo").fadeTo(96, 0.8);
-        $("#logo").fadeTo(96, 0.6);
-        $("#logo").fadeTo(100, 0.3);
-        $("#logo").fadeTo(7, 0.6);
-        $("#logo").fadeTo(96, 0.8);
-        $("#logo").fadeTo(96, 0.6);
-        $("#logo").fadeTo(96, 1);
-        $("#logo").fadeTo(96, 0.8);
-        $("#logo").fadeTo(96, 1);
-    }
-
-    $(document).ready(function () {
-
-        IntroAnimation();
-
-        $("a").on('click', function (event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function () {
-                    window.location.hash = hash;
-                });
-            }
-        });
-
-        var clipboard = new ClipboardJS('.btn');
-        clipboard.on('success', function(e) {
-            console.log(e);
-            $(".btn").text("Copied to clipboard");
-            $(".btn").css( "text-decoration", "none");
-            setTimeout(function(){ $(".btn").text("contact.ianmiller@gmail.com") }, 2000);
-            setTimeout(function(){ $(".btn").css( "text-decoration", "underline") }, 2000);
-        });
-        clipboard.on('error', function(e) {
-            console.log(e);
-        });
-
-    });
-
-    document.querySelector(".card-flip").classList.toggle("flip");
-
-</script>
-
-</html>
-
-
-
-<!-- <div class="row">
-    <div class="nav-menu text-center mx-auto">
-        <h5><a href="#">HOME</a> / <a href="#">ABOUT</a> / <a href="#">WORK</a> / <a href="#">CONTACT</a></h5>
-    </div>
-</div> -->
